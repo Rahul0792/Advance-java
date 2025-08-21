@@ -1,5 +1,6 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<h2>Course Management App</h2>
+<a href="html/createCourse.html" >Create Course </a>
 </body>
 </html>
