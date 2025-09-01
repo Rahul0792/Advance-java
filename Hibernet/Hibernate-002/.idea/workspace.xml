@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ea40522-58bb-4d78-ba6b-4769b843eb11" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Spring/Spring-Core-001/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/Spring-Core-001/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/Spring-Core-001/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/Spring-Core-001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/Spring-Core-001/src/main/java/com/It_shaala/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/Spring-Core-001/src/test/java/com/It_shaala/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
