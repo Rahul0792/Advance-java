@@ -8,10 +8,11 @@
     </bean>
 
     <bean class="com.It_shaala.service.CourseService" name="service" scope="singleton">
-        <constructor-arg name="courseDao" ref="dao">
-        </constructor-arg>
+      <constructor-arg name="courseDao" ref="dao">
+       </constructor-arg>
+
     </bean>
-    
+
     <bean class="com.It_shaala.dao.Coursedao" name="dao" scope="singleton"></bean>
 
 

@@ -1,10 +1,10 @@
 package com.It_shaala.service;
 
 import com.It_shaala.model.Course;
-import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
-@AllArgsConstructor
+@NoArgsConstructor
 public class CourseService {
     public  void addCourse(Course course){
 
