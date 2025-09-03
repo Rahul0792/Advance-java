@@ -4,13 +4,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+@Configuration()
 @ComponentScan(basePackages = {"com.It_shaala"})
 public class SpringConfig {
-
-    @Bean(name = "course")
-    public Course getCourse(){
-        return new Course(1,"Python","Hard");
-    }
 
 }
