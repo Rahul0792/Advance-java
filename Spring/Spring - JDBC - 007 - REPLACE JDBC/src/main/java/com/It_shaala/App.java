@@ -12,11 +12,10 @@ public class App
         ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
         CourseController courseController = context.getBean(CourseController.class);
         courseController.Add(Course.builder()
-                .name("Rahul")
-                .id(101)
+                .name("Rahul khilari")
                 .price(5000)
-                .description("Bharadi")
-                .duration("1 month").build());
+                .description("Bharadi thoratmala")
+                .duration("5 month").build());
         System.out.println( "Hello World!" );
     }
 }
