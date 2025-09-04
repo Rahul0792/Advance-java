@@ -2,14 +2,15 @@ package com.It_shaala.Service;
 
 import com.It_shaala.Dao.CourseDao;
 import com.It_shaala.Model.Course;
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
-
+@AllArgsConstructor
 @Service
 public class CourseService {
 
-    @Autowired
+//    @Autowired
     private CourseDao courseDao;
 
     public void Add(Course course) {

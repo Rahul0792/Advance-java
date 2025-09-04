@@ -2,14 +2,15 @@ package com.It_shaala.Controller;
 
 import com.It_shaala.Model.Course;
 import com.It_shaala.Service.CourseService;
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
 import java.util.List;
-
+@AllArgsConstructor
 @Controller
 public class CourseController {
-    @Autowired
+//    @Autowired
     private CourseService courseService;
     public void Add(Course course){
         courseService.Add(course);
